@@ -1,0 +1,53 @@
+ body {
+ 	font-size: 0.8em;
+ 	padding: 0; 
+ 	margin: 0;
+ 	font-family: 'Helvetica', 'Arial', sans-serif;
+ 	word-wrap: break-word;
+ 	text-transform: lowercase;
+ 	cursor: default;
+ 	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+ } 
+
+ .container {
+ 	padding-top: 7em;
+ }
+
+ .rotate {
+ 	 transform:rotate(-90deg);
+ 	 max-width: min-content;
+ 	 word-wrap: break-word;
+ 	 margin:auto;
+ }
+
+ ::selection {
+ 	background: black;
+ 	color: white;
+ }
+
+ h1 {
+ 	font-size: 7em;
+ 	margin-bottom: 0.5em;
+ }
+
+ h2 {
+ 	font-size: 4em;
+ 	margin-bottom: 0.2em;
+ }
+
+ h3 {
+ 	font-size:2em;
+ }
+
+ canvas {
+ 	vertical-align: top; 
+ 	position:absolute; 
+ 	top: 0; 
+ 	left:0; 
+ 	z-index: -9999;
+ } 
