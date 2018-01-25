@@ -4,8 +4,10 @@
  	margin: 0;
  	font-family: 'Helvetica', 'Arial', sans-serif;
  	word-wrap: break-word;
+ 	-moz-word-wrap: break-word;
  	text-transform: lowercase;
  	cursor: default;
+ 	overflow: hidden;
  	-webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
        -moz-user-select: none; /* Firefox */
@@ -14,15 +16,16 @@
                                   supported by Chrome and Opera */
  } 
 
+#trick {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -9999;
+}
+
  .container {
  	padding-top: 7em;
- }
-
- .rotate {
- 	 transform:rotate(-90deg);
- 	 max-width: min-content;
- 	 word-wrap: break-word;
- 	 margin:auto;
  }
 
  ::selection {
