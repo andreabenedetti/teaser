@@ -26,26 +26,36 @@
 }
 
  .container {
- 	padding-top: 7em;
+ 	padding-top: 6.5em;
  }
 
- ::selection {
- 	background: black;
- 	color: white;
+ a {
+ 	font-weight: bold;
+ 	color: maroon;
+ 	transition: .3s ease;
+ 	font-size: 1.2em;
+ }
+
+ a:hover {
+ 	opacity: 0.5;
+ 	color: maroon;
+ 	text-decoration: none;
  }
 
  h1 {
  	font-size: 7em;
- 	margin-bottom: 0.5em;
+ 	margin-bottom: 0.2em;
  }
 
  h2 {
- 	font-size: 4em;
+ 	font-size: 3.2em;
  	margin-bottom: 0.2em;
  }
 
  h3 {
  	font-size:2em;
+ 	margin-bottom: 2em;
+ 	text-transform: uppercase;
  }
 
  canvas {

@@ -19,13 +19,13 @@ d3.tsv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4gScrT35HsL4tO2UbWqpfv
             .append('rect');
 
   rect
-  .attr('height', 0)
-  .attr('width', 0)
+  .attr('height', 0.5)
+  .attr('width', 500)
   .attr('fill', 'black')
   .attr('stroke','black')
-  .attr('stroke-width',1)
-  .attr('x', w/2)
-  .attr('y', h/2);
+  .attr('stroke-width',1.2)
+  .attr('x', w/2-250)
+  .attr('y', h/2-0.25);
 
 var counter = 0;
 
@@ -40,7 +40,7 @@ d3.interval(function(){
 
   if (students[counter].gender == 'f'){
     rect
-    .attr('fill','Maroon');
+    .attr('fill','rgb(3,85,145)');
   }else {
     rect
     .attr('fill','rgb(0,92,82)');
