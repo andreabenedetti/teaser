@@ -77,6 +77,10 @@
 		font-size: 2em;
 	}
 
+	#teaser svg {
+		transform: rotate(90deg);
+	}
+
 	.container {
 		padding-top: 0.5em;
 		max-width: 95%;
