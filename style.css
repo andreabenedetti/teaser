@@ -69,6 +69,11 @@
  /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	body {
+		font-size: 1.3em;
+		overflow: hidden;
+	}
+
+	h4 {
 		font-size: 1.2em;
 	}
 
