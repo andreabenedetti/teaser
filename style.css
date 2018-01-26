@@ -69,10 +69,11 @@
  /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	body {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 
 	.container {
+		padding-top: 0.5em;
 		max-width: 95%;
 	}
 }
