@@ -17,6 +17,18 @@
                                   supported by Chrome and Opera */
  } 
 
+.logo {
+	width: 60px;
+	position:absolute;
+	bottom: 10%;
+	right: 8%;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+
 #trick {
 	position: absolute;
 	top: 0;
@@ -67,7 +79,7 @@
  } 
 
  /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
 	body {
 		font-size: 1.4em;
 		overflow: hidden;
