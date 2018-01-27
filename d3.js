@@ -1,13 +1,6 @@
 var h = window.innerHeight;
 var w = window.innerWidth;
 
-var hRect = 100;
-var wRect = 100;
-
-// var age=[23,24,25,24,27,24];
-// var letters=[14,13,26,15,16,16];
-// var gender=["f","f","f","m","f","m"];
-
 d3.tsv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4gScrT35HsL4tO2UbWqpfvc_WDKUfrOFlllqJqJyjONBWsNAsaD7GUPjufBxUof8y8Cfd8WD2Ym4e/pub?gid=542385431&single=true&output=tsv', function(err,data){
   if (err) throw err;
   console.log(data);
@@ -39,11 +32,9 @@ d3.interval(function(){
     .attr('y', h/2-students[counter].letters*12);
 
   if (students[counter].gender == 'f'){
-    rect
-    .attr('fill','rgb(3,85,145)');
+    rect.attr('fill','rgb(3,85,145)');
   }else {
-    rect
-    .attr('fill','rgb(0,92,82)');
+    rect.attr('fill','rgb(0,92,82)');
   }
 
   counter++;
