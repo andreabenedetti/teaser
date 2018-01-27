@@ -78,6 +78,34 @@
  	z-index: -9999;
  } 
 
+ .exhibition {
+ 	font-size: 1em;
+ }
+
+ .exhibition h4 {
+ 	margin-bottom: 1em;
+ 	cursor: pointer;
+ }
+
+ .exhibition a {
+ 	font-size: 1em;
+ }
+
+ .description {
+ 	width: 500px;
+ 	border: 1px solid black;
+ 	padding: 1.4em;
+ 	text-transform: none;
+ 	font-size: 1.2em;
+ }
+
+ .team {
+ 	font-style: italic;
+ 	opacity: 0.6;
+ 	width: 80%;
+ 	margin-bottom: 0;
+ }
+
  /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 736px) {
 	body {
