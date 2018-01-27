@@ -107,7 +107,7 @@
  }
 
  /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 736px) {
+@media only screen and (max-device-width : 760px) {
 	body {
 		font-size: 2em;
 		overflow: hidden;
